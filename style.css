@@ -1,16 +1,27 @@
-.hero-section { 
-    background: linear-gradient(135deg, #0d47a1 50%, #343a40 50%); 
-    padding: 60px 0; 
+.hero-section {
+    background: linear-gradient(135deg, #0d47a1 50%, #343a40 50%);
+    padding: 60px 0;
 }
-.profile-img { 
-    width: 150px; height: 150px; border-radius: 10px; object-fit: cover; 
-    border: 3px solid white; 
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 3px solid white;
 }
-.card { 
-    border: none; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
-    transition: 0.3s;
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
 }
-.card:hover { transform: translateY(-10px); }
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+}
 
 #about {
     padding: 80px 0;
@@ -24,12 +35,4 @@
 #about ul li {
     margin-bottom: 10px;
     font-size: 1.1rem;
-}
-.card {
-    transition: all 0.3s ease-in-out;
-}
-
-.card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
 }

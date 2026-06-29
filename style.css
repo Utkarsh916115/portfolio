@@ -12,22 +12,19 @@
 }
 .card:hover { transform: translateY(-10px); }
 
-/* About Section Improvements */
 #about {
     padding: 80px 0;
     color: #333;
 }
 
 #about h2 {
-    color: #0d47a1; /* Aapke Hero section ke theme colour se match karta hua */
+    color: #0d47a1;
 }
 
 #about ul li {
     margin-bottom: 10px;
     font-size: 1.1rem;
 }
-
-/* Card hover effect ko aur smooth banate hain */
 .card {
     transition: all 0.3s ease-in-out;
 }
